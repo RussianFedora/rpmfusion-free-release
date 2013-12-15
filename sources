@@ -1,0 +1,7 @@
+7c19e85beafdddeceea42b288817d9cc  RPM-GPG-KEY-rpmfusion-free-fedora-19-primary
+860944a49cb2c79b23bf20c3b92f9a53  RPM-GPG-KEY-rpmfusion-free-fedora-20-primary
+af74b1a63cf5a3c79f55693d4c147473  RPM-GPG-KEY-rpmfusion-free-fedora-21-primary
+5581034f17249368bc824e606ce7cd49  rpmfusion-free-rawhide.repo
+9ba17405a20836725c1a7e58f84df0cc  rpmfusion-free-updates-testing.repo
+9df6b05fc9cc4f1ddb7fed7b82c403cb  rpmfusion-free-updates.repo
+ed45960fd3dc09b0ed1b46d77857feb8  rpmfusion-free.repo
