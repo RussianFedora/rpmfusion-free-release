@@ -3,7 +3,7 @@
 
 Name:           rpmfusion-%{repo}-release
 Version:        24
-Release:        0.2.R
+Release:        0.3.R
 Summary:        RPM Fusion (%{repo}) Repository Configuration
 
 Group:          System Environment/Base
@@ -89,6 +89,9 @@ ln -s $(basename %{SOURCE24}) $RPM_BUILD_ROOT%{_sysconfdir}/pki/rpm-gpg/RPM-GPG-
 %config(noreplace) %{_sysconfdir}/yum.repos.d/*
 
 %changelog
+* Tue Jun 21 2016 Arkady L. Shane <ashejn@russianfedora.pro> - 24-0.3.R
+- drop fedora 23 repos, enable updates and disable updates-testing
+
 * Tue Jun 21 2016 Arkady L. Shane <ashejn@russianfedora.pro> - 24-0.2.R
 - update new RPM Fusion repos
 
